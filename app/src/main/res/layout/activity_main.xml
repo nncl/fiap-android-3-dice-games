@@ -9,4 +9,48 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.fiap.mob.dicegames.MainActivity">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_player"
+        android:id="@+id/txtPlayer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/dado"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgPlayer"
+        android:layout_below="@+id/txtPlayer"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/txt_pc"
+        android:id="@+id/txtPC"
+        android:layout_below="@+id/imgPlayer"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/dado"
+        android:id="@+id/imgPC"
+        android:layout_below="@+id/txtPC"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:id="@+id/btnPlay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="play"
+        android:clickable="true" />
 </RelativeLayout>

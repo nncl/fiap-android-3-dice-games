@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Dice Games</string>
+    <string name="app_name">Dice Games - PC vs. YOU</string>
+    <string name="txt_pc">PC</string>
+    <string name="txt_player">Player</string>
 </resources>
